@@ -137,18 +137,24 @@ section img#mountains_front{
     color: #fff;
 }
 
-footer{
+footer {
+    position: relative; 
+    padding: 20px 100px;
     color: #fff;
     text-align: center;
-    /* margin: 10px; */
-    background: linear-gradient(#2b1055,#7597de);
-    overflow: hidden;
-
+    background: linear-gradient(to top, #2b1055, #1c0522); /* Seamlessly merges into the body */
+    z-index: 10;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+footer a:hover {
+    background: #fff;
+    color: #2b1055;
 }
