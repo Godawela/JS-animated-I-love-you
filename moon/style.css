@@ -158,3 +158,18 @@ footer a:hover {
     background: #fff;
     color: #2b1055;
 }
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    text-align: justify;
+    font-size: 1.2em; /* Optional: Adjusts readability */
+    line-height: 1.6; /* Optional: Improves spacing between lines */
+    margin: 20px 0; /* Optional: Adds spacing around the text */
+    background-image: url('stars.png'); /* Use your stars image URL */
+    background-size: cover; /* Ensures the stars image covers the area */
+    background-position: center; /* Aligns the stars in the center */
+    background-repeat: no-repeat; /* Ensures stars don't repeat */
+    padding: 20px; /* Adds padding so the stars are visible around the text */
+    color: #fff; /* Makes the text color stand out against the background */
+}
